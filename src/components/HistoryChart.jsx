@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import Chart from 'chart.js/auto'
+import Chartjs from 'chart.js/auto'
 import { historyOptions } from "../chartConfigs/chartConfigs";
 
 const HistoryChart = ({ data }) => {
@@ -23,7 +23,7 @@ const HistoryChart = ({ data }) => {
   useEffect(() => {
     if (chartRef && chartRef.current && detail) {
       console.log("yeah");
-      const chartInstance = new Chart(chartRef.current, {
+      const chartInstance = new Chartjs(chartRef.current, {
         type: "line",
         data: {
           datasets: [
