@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Simple Cryptocurrency Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is a simple crytocurrency tracker. It uses the coinGecko API to fetch data about crytocurrencies and displays them in a simple list. Tailwind CSS was used for the styling of the application and local storage was used for storing a user's list. 
+
+## Made with
+
+React, Tailwind CSS, CoinGecko API
 
 ## Available Scripts
 
