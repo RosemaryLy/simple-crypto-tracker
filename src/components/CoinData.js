@@ -38,7 +38,7 @@ const CoinData = ({ data }) => {
           </div>
         </div>
         <div>
-          <button className="block mx-auto bg-indigo-500 hover:bg-indigo-400 hover:text-white rounded p-2 mt-8">
+          <button className="block mx-auto bg-indigo-400 hover:bg-pink-400 hover:text-white rounded p-2 mt-8">
             <Link to="/">Back</Link>
           </button>
         </div>
