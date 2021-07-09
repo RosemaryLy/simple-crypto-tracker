@@ -1,10 +1,13 @@
 # Simple Cryptocurrency Tracker
 
-This application is a simple crytocurrency tracker. It uses the coinGecko API to fetch data about crytocurrencies and displays them in a simple list. Tailwind CSS was used for the styling of the application and local storage was used for storing a user's list. 
+This application is a simple cryptocurrency tracker. It uses the coinGecko API to fetch data about cryptocurrencies and displays them in a simple list. Tailwind CSS was used for the styling of the application and local storage was used for storing a user's list. 
 
 ## Made with
 
 React, Tailwind CSS, CoinGecko API
+
+## Demo
+https://rosemaryly.github.io/simple-crypto-tracker/
 
 ## Available Scripts
 
