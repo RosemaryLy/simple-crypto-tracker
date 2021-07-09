@@ -5,7 +5,6 @@ import ValueFall from "./ValueFall";
 import ValueRise from "./ValueRise";
 
 const Coin = ({ coin, deleteCoin }) => {
-  console.log(coin);
   return (
     <Link to={`/coins/${coin.id}`}>
       <div className="container mx-auto px-2 md:px-4 mb-8 md:mb-4">

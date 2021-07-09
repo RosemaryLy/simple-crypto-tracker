@@ -47,7 +47,6 @@ const CoinDetailPage = () => {
           },
         }),
       ]);
-      console.log(day);
 
       setCoinData({
         day: formatData(day.data.prices),

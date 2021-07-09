@@ -6,7 +6,7 @@ const CoinData = ({ data }) => {
     if (data) {
       return (
         <div className="background-white p-4 mb-4">
-        <h2 className="text-4xl my-5 text-center border-b border-gray-300 pb-2 mb-8">
+        <h2 className="text-4xl my-5 text-center border-gray-300 text-white pb-2 mb-8">
           Details
         </h2>
         <div className="flex flex-wrap -mb-4">
@@ -38,7 +38,7 @@ const CoinData = ({ data }) => {
           </div>
         </div>
         <div>
-          <button className="block mx-auto border border-gray-800 hover:bg-gray-800 hover:text-white rounded p-2 mt-8">
+          <button className="block mx-auto bg-indigo-500 hover:bg-indigo-400 hover:text-white rounded p-2 mt-8">
             <Link to="/">Back</Link>
           </button>
         </div>
