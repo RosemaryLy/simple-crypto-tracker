@@ -7,7 +7,7 @@ import { WatchListContextProvider } from "./context/watchListContext";
 
 const App = () => {
   return (
-    <div className="container mx-auto">
+    <div className="shadow-xl p-4 bg-gray-800 min-h-screen">
       <WatchListContextProvider>
         <BrowserRouter>
           <Header />
