@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="shadow-xl p-4 bg-gray-900  min-h-screen">
       <WatchListContextProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/simple-crypto-tracker">
           <Header />
           <Route exact path="/" component={CoinSummaryPage} />
           <Route path="/coins/:id" component={CoinDetailPage} />
